@@ -1,0 +1,722 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>*|MC:SUBJECT|*</title>
+        <style type="text/css">
+			/* /\/\/\/\/\/\/\/\/ CLIENT-SPECIFIC STYLES /\/\/\/\/\/\/\/\/ */
+			#outlook a{padding:0;} /* Force Outlook to provide a "view in browser" message */
+			.ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail to display emails at full width */
+			.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;} /* Force Hotmail to display normal line spacing */
+			body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;} /* Prevent WebKit and Windows mobile changing default text sizes */
+			table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spacing between tables in Outlook 2007 and up */
+			img{-ms-interpolation-mode:bicubic;} /* Allow smoother rendering of resized image in Internet Explorer */
+
+			/* /\/\/\/\/\/\/\/\/ RESET STYLES /\/\/\/\/\/\/\/\/ */
+			body{margin:0; padding:0;}
+			img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
+			table{border-collapse:collapse !important;}
+			body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:100% !important;}
+
+			/* /\/\/\/\/\/\/\/\/ TEMPLATE STYLES /\/\/\/\/\/\/\/\/ */
+
+			/* ========== Page Styles ========== */
+
+			#bodyCell{padding:20px;}
+			#templateContainer{width:600px;}
+
+			/**
+			* @tab Page
+			* @section background style
+			* @tip Set the background color and top border for your email. You may want to choose colors that match your company's branding.
+			* @theme page
+			*/
+			body, #bodyTable{
+				/*@editable*/ background-color:#DEE0E2;
+			}
+
+			/**
+			* @tab Page
+			* @section background style
+			* @tip Set the background color and top border for your email. You may want to choose colors that match your company's branding.
+			* @theme page
+			*/
+			#bodyCell{
+				/*@editable*/ border-top:4px solid #BBBBBB;
+			}
+
+			/**
+			* @tab Page
+			* @section email border
+			* @tip Set the border for your email.
+			*/
+			#templateContainer{
+				/*@editable*/ border:1px solid #BBBBBB;
+			}
+
+			/**
+			* @tab Page
+			* @section heading 1
+			* @tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
+			* @style heading 1
+			*/
+			h1{
+				/*@editable*/ color:#202020 !important;
+				display:block;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:26px;
+				/*@editable*/ font-style:normal;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ letter-spacing:normal;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Page
+			* @section heading 2
+			* @tip Set the styling for all second-level headings in your emails.
+			* @style heading 2
+			*/
+			h2{
+				/*@editable*/ color:#404040 !important;
+				display:block;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:20px;
+				/*@editable*/ font-style:normal;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ letter-spacing:normal;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Page
+			* @section heading 3
+			* @tip Set the styling for all third-level headings in your emails.
+			* @style heading 3
+			*/
+			h3{
+				/*@editable*/ color:#606060 !important;
+				display:block;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:16px;
+				/*@editable*/ font-style:italic;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ letter-spacing:normal;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Page
+			* @section heading 4
+			* @tip Set the styling for all fourth-level headings in your emails. These should be the smallest of your headings.
+			* @style heading 4
+			*/
+			h4{
+				/*@editable*/ color:#808080 !important;
+				display:block;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:14px;
+				/*@editable*/ font-style:italic;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ letter-spacing:normal;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+			}
+
+			/* ========== Header Styles ========== */
+
+			/**
+			* @tab Header
+			* @section preheader style
+			* @tip Set the background color and bottom border for your email's preheader area.
+			* @theme header
+			*/
+			#templatePreheader{
+				/*@editable*/ background-color:#F4F4F4;
+				/*@editable*/ border-bottom:1px solid #CCCCCC;
+			}
+
+			/**
+			* @tab Header
+			* @section preheader text
+			* @tip Set the styling for your email's preheader text. Choose a size and color that is easy to read.
+			*/
+			.preheaderContent{
+				/*@editable*/ color:#808080;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:10px;
+				/*@editable*/ line-height:125%;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Header
+			* @section preheader link
+			* @tip Set the styling for your email's preheader links. Choose a color that helps them stand out from your text.
+			*/
+			.preheaderContent a:link, .preheaderContent a:visited, /* Yahoo! Mail Override */ .preheaderContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#606060;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			/**
+			* @tab Header
+			* @section header style
+			* @tip Set the background color and borders for your email's header area.
+			* @theme header
+			*/
+			#templateHeader{
+				/*@editable*/ background-color:#F4F4F4;
+				/*@editable*/ border-top:1px solid #FFFFFF;
+				/*@editable*/ border-bottom:1px solid #CCCCCC;
+			}
+
+			/**
+			* @tab Header
+			* @section header text
+			* @tip Set the styling for your email's header text. Choose a size and color that is easy to read.
+			*/
+			.headerContent{
+				/*@editable*/ color:#505050;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:20px;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ padding-top:0;
+				/*@editable*/ padding-right:0;
+				/*@editable*/ padding-bottom:0;
+				/*@editable*/ padding-left:0;
+				/*@editable*/ text-align:left;
+				/*@editable*/ vertical-align:middle;
+			}
+
+			/**
+			* @tab Header
+			* @section header link
+			* @tip Set the styling for your email's header links. Choose a color that helps them stand out from your text.
+			*/
+			.headerContent a:link, .headerContent a:visited, /* Yahoo! Mail Override */ .headerContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#EB4102;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			#headerImage{
+				height:auto;
+				max-width:600px;
+			}
+
+			/* ========== Body Styles ========== */
+
+			/**
+			* @tab Body
+			* @section body style
+			* @tip Set the background color and borders for your email's body area.
+			*/
+			#templateBody{
+				/*@editable*/ background-color:#F4F4F4;
+				/*@editable*/ border-top:1px solid #FFFFFF;
+				/*@editable*/ border-bottom:1px solid #CCCCCC;
+			}
+
+			/**
+			* @tab Body
+			* @section body text
+			* @tip Set the styling for your email's main content text. Choose a size and color that is easy to read.
+			* @theme main
+			*/
+			.bodyContent{
+				/*@editable*/ color:#505050;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:16px;
+				/*@editable*/ line-height:150%;
+				padding-top:20px;
+				padding-right:20px;
+				padding-bottom:20px;
+				padding-left:20px;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Body
+			* @section body link
+			* @tip Set the styling for your email's main content links. Choose a color that helps them stand out from your text.
+			*/
+			.bodyContent a:link, .bodyContent a:visited, /* Yahoo! Mail Override */ .bodyContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#EB4102;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			.bodyContent img{
+				display:inline;
+				height:auto;
+				max-width:560px;
+			}
+
+			/* ========== Column Styles ========== */
+
+			.templateColumnContainer{width:260px;}
+
+			/**
+			* @tab Columns
+			* @section column style
+			* @tip Set the background color and borders for your email's column area.
+			*/
+			#templateColumns{
+				/*@editable*/ background-color:#F4F4F4;
+				/*@editable*/ border-top:1px solid #FFFFFF;
+				/*@editable*/ border-bottom:1px solid #CCCCCC;
+			}
+
+			/**
+			* @tab Columns
+			* @section left column text
+			* @tip Set the styling for your email's left column content text. Choose a size and color that is easy to read.
+			*/
+			.leftColumnContent{
+				/*@editable*/ color:#505050;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:14px;
+				/*@editable*/ line-height:150%;
+				padding-top:0;
+				padding-right:20px;
+				padding-bottom:20px;
+				padding-left:20px;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Columns
+			* @section left column link
+			* @tip Set the styling for your email's left column content links. Choose a color that helps them stand out from your text.
+			*/
+			.leftColumnContent a:link, .leftColumnContent a:visited, /* Yahoo! Mail Override */ .leftColumnContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#EB4102;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			/**
+			* @tab Columns
+			* @section right column text
+			* @tip Set the styling for your email's right column content text. Choose a size and color that is easy to read.
+			*/
+			.rightColumnContent{
+				/*@editable*/ color:#505050;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:14px;
+				/*@editable*/ line-height:150%;
+				padding-top:0;
+				padding-right:20px;
+				padding-bottom:20px;
+				padding-left:20px;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Columns
+			* @section right column link
+			* @tip Set the styling for your email's right column content links. Choose a color that helps them stand out from your text.
+			*/
+			.rightColumnContent a:link, .rightColumnContent a:visited, /* Yahoo! Mail Override */ .rightColumnContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#EB4102;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			.leftColumnContent img, .rightColumnContent img{
+				display:inline;
+				height:auto;
+				max-width:260px;
+			}
+
+			/* ========== Footer Styles ========== */
+
+			/**
+			* @tab Footer
+			* @section footer style
+			* @tip Set the background color and borders for your email's footer area.
+			* @theme footer
+			*/
+			#templateFooter{
+				/*@editable*/ background-color:#F4F4F4;
+				/*@editable*/ border-top:1px solid #FFFFFF;
+			}
+
+			/**
+			* @tab Footer
+			* @section footer text
+			* @tip Set the styling for your email's footer text. Choose a size and color that is easy to read.
+			* @theme footer
+			*/
+			.footerContent{
+				/*@editable*/ color:#808080;
+				/*@editable*/ font-family:Helvetica;
+				/*@editable*/ font-size:10px;
+				/*@editable*/ line-height:150%;
+				padding-top:20px;
+				padding-right:20px;
+				padding-bottom:20px;
+				padding-left:20px;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Footer
+			* @section footer link
+			* @tip Set the styling for your email's footer links. Choose a color that helps them stand out from your text.
+			*/
+			.footerContent a:link, .footerContent a:visited, /* Yahoo! Mail Override */ .footerContent a .yshortcuts, .footerContent a span /* Yahoo! Mail Override */{
+				/*@editable*/ color:#606060;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+
+			/* /\/\/\/\/\/\/\/\/ MOBILE STYLES /\/\/\/\/\/\/\/\/ */
+
+            @media only screen and (max-width: 480px){
+				/* /\/\/\/\/\/\/ CLIENT-SPECIFIC MOBILE STYLES /\/\/\/\/\/\/ */
+				body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:none !important;} /* Prevent Webkit platforms from changing default text sizes */
+                body{width:100% !important; min-width:100% !important;} /* Prevent iOS Mail from adding padding to the body */
+
+				/* /\/\/\/\/\/\/ MOBILE RESET STYLES /\/\/\/\/\/\/ */
+				#bodyCell{padding:10px !important;}
+
+				/* /\/\/\/\/\/\/ MOBILE TEMPLATE STYLES /\/\/\/\/\/\/ */
+
+				/* ======== Page Styles ======== */
+
+				/**
+				* @tab Mobile Styles
+				* @section template width
+				* @tip Make the template fluid for portrait or landscape view adaptability. If a fluid layout doesn't work for you, set the width to 300px instead.
+				*/
+				#templateContainer{
+					max-width:600px !important;
+					/*@editable*/ width:100% !important;
+				}
+
+				/**
+				* @tab Mobile Styles
+				* @section heading 1
+				* @tip Make the first-level headings larger in size for better readability on small screens.
+				*/
+				h1{
+					/*@editable*/ font-size:24px !important;
+					/*@editable*/ line-height:100% !important;
+				}
+
+				/**
+				* @tab Mobile Styles
+				* @section heading 2
+				* @tip Make the second-level headings larger in size for better readability on small screens.
+				*/
+				h2{
+					/*@editable*/ font-size:20px !important;
+					/*@editable*/ line-height:100% !important;
+				}
+
+				/**
+				* @tab Mobile Styles
+				* @section heading 3
+				* @tip Make the third-level headings larger in size for better readability on small screens.
+				*/
+				h3{
+					/*@editable*/ font-size:18px !important;
+					/*@editable*/ line-height:100% !important;
+				}
+
+				/**
+				* @tab Mobile Styles
+				* @section heading 4
+				* @tip Make the fourth-level headings larger in size for better readability on small screens.
+				*/
+				h4{
+					/*@editable*/ font-size:16px !important;
+					/*@editable*/ line-height:100% !important;
+				}
+
+				/* ======== Header Styles ======== */
+
+				#templatePreheader{display:none !important;} /* Hide the template preheader to save space */
+
+				/**
+				* @tab Mobile Styles
+				* @section header image
+				* @tip Make the main header image fluid for portrait or landscape view adaptability, and set the image's original width as the max-width. If a fluid setting doesn't work, set the image width to half its original size instead.
+				*/
+				#headerImage{
+					height:auto !important;
+					/*@editable*/ max-width:600px !important;
+					/*@editable*/ width:100% !important;
+				}
+
+				/**
+				* @tab Mobile Styles
+				* @section header text
+				* @tip Make the header content text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+				*/
+				.headerContent{
+					/*@editable*/ font-size:20px !important;
+					/*@editable*/ line-height:125% !important;
+				}
+
+				/* ======== Body Styles ======== */
+
+				/**
+				* @tab Mobile Styles
+				* @section body text
+				* @tip Make the body content text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+				*/
+				.bodyContent{
+					/*@editable*/ font-size:18px !important;
+					/*@editable*/ line-height:125% !important;
+				}
+
+				/* ======== Column Styles ======== */
+
+				.templateColumnContainer{display:block !important; width:100% !important;}
+
+				/**
+				* @tab Mobile Styles
+				* @section column image
+				* @tip Make the column image fluid for portrait or landscape view adaptability, and set the image's original width as the max-width. If a fluid setting doesn't work, set the image width to half its original size instead.
+				*/
+				.columnImage{
+					height:auto !important;
+					/*@editable*/ max-width:480px !important;
+					/*@editable*/ width:100% !important;
+				}
+
+				/**
+				* @tab Mobile Styles
+				* @section left column text
+				* @tip Make the left column content text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+				*/
+				.leftColumnContent{
+					/*@editable*/ font-size:16px !important;
+					/*@editable*/ line-height:125% !important;
+				}
+
+				/**
+				* @tab Mobile Styles
+				* @section right column text
+				* @tip Make the right column content text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+				*/
+				.rightColumnContent{
+					/*@editable*/ font-size:16px !important;
+					/*@editable*/ line-height:125% !important;
+				}
+
+				/* ======== Footer Styles ======== */
+
+				/**
+				* @tab Mobile Styles
+				* @section footer text
+				* @tip Make the body content text larger in size for better readability on small screens.
+				*/
+				.footerContent{
+					/*@editable*/ font-size:14px !important;
+					/*@editable*/ line-height:115% !important;
+				}
+
+				.footerContent a{display:block !important;} /* Place footer social and utility links on their own lines, for easier access */
+			}
+		</style>
+    </head>
+    <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">
+    	<center>
+        	<table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable">
+            	<tr>
+                	<td align="center" valign="top" id="bodyCell">
+                    	<!-- BEGIN TEMPLATE // -->
+                    	<table border="0" cellpadding="0" cellspacing="0" id="templateContainer" style="background-color:#F4F4F4 !important; ">
+                        	<tr>
+                            	<td align="center" valign="top">
+                                	<!-- BEGIN BODY // -->
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateBody" style="background-color: #F4F4F4 !important;border-top: 1px solid #FFFFFF !important;border-bottom: 1px solid #CCCCCC !important;">
+                                        <tr>
+                                            <td valign="top" class="bodyContent" mc:edit="body_content">
+                                              <h2 style="font-size: 20px; text-transform: uppercase;">I believe article title</h2>
+                                              <a href="https://www.healthbrew.org/" target="_blank">
+                                              	<img src="https://i.ibb.co/D9WBVfq/logo.png" style="max-width:100px;" class="columnImage" mc:label="left_column_image" mc:edit="left_column_image" />
+                                              </a><!-- logo -->
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // END BODY -->
+                                </td>
+                            </tr> <!-- close header section -->
+                           
+
+                        	<tr>
+                            	<td align="center" valign="top">
+                                	<!-- BEGIN BODY // -->
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateBody"  style="background-color: #F4F4F4 !important; border-top: 1px solid #FFFFFF !important;border-bottom: 1px solid #CCCCCC !important;">
+                                        <tr>
+                                            <td valign="top" class="bodyContent" mc:edit="body_content">
+                                                <h2 style="text-align: center;background-color: #EF4C61;padding: 10px;color: #fff !important; font-size: 22px;">Sponsor</h2>
+                                                <a style="text-decoration: none;" href="https://www.alivecor.com/">
+                                                <img src="https://i.ibb.co/vzHXH19/post-images.png" style="" class="columnImage" mc:label="left_column_image" mc:edit="left_column_image" /> 
+                                                 
+                                               
+
+                                                <br>
+                                                
+                                                <p style="font-size: 13px; color: #000;"> 
+                                                	Happy Saturday! We are honored that this week's sponsor is AliveCor  If you've never heard of this product before and have had an ECG or electrocardiogram in the past, this should blow your mind! Instead of getting an ECG at the doctor's office with all the different lead wires stuck on you like a science experiment, now you can get an ECG in the comfort of your home or on the go.
+                                                	<br><br>
+													The <b>KardiaMobile</b> comes in two flavors, the single lead and the 6 lead version. The device is cleared by the FDA to detect Atrial Fibrillation (irregular heart rate), Bradycardia (slow heart rate), and Tachycardia (fast heart rate). The App works on both iOS and Android.
+													<br><br>
+													We love it because recently AliveCor launched its remote patient monitoring platform or RPM that stores all your data and any irregularities on the cloud in a platform called <b>KardiaPro.</b> This platform is free to use by your doctor AND they can get paid to review your data. Lastly, the device itself is HSA eligible. For those with a health savings account that is funded with pre-tax dollars by your employers, now you can use those pre-tax dollars for a new KardiaMobile device.
+													<br>
+
+													******
+													<br>
+													This week we investigate Vitamin D for adults and find out that the majority don't need it but a small group of people should definitely consider supplementation. We also explore how Ro the multi-billion dollar startup is planning on growing vertically before it becomes available in the public markets for the retail investor.
+                                                </p>
+                                                </a>
+                                                
+                                                 
+                                                
+                                                
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // END BODY -->
+                                </td>
+                            </tr>
+                            <tr>
+                            	<td align="center" valign="top">
+                                	<!-- BEGIN BODY // -->
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateBody"  style="background-color: #F4F4F4 !important;border-top: 1px solid #FFFFFF !important;border-bottom: 1px solid #CCCCCC !important;">
+                                        <tr>
+                                            <td valign="top" class="bodyContent" mc:edit="body_content">
+                                               
+                                                <h2 style="text-align: center;background-color: #EF4C61;padding: 10px;color: #fff !important;font-size: 22px;">Articles</h2>
+                                               	<a href="https://www.healthbrew.org/articles/should-adults-be-screened-for-vitamin-d-deficiency-what-we-should-know" style="color: #000; text-decoration: none;" target="_blank">
+                                               	<p style="font-size: 18px; color: #000; font-weight: bold; text-align: center;text-decoration: underline !important;text-decoration-color: #0000ff !important;"> 
+                                                	Should Adults Be Screened For Vitamin D Deficiency? What We Should Know
+                                                </p>
+                                                 <img src="https://cdn.sanity.io/images/z4nmaa1v/production/c36d006992cea3e06d53dd01b3578d38659400b9-5184x3456.jpg" style="" class="columnImage" mc:label="left_column_image" mc:edit="left_column_image" /> 
+                                                 <p style="font-size: 13px; color: #000;"> 
+                                                
+													The US Preventive Services Task Force (USPSTF) commissioned a study on whether screening for vitamin D deficiency is appropriate. Vitamin D is one of the fat soluble vitamins that has a very important role in maintaining calcium blood levels, bone metabolism & growth, and several cellular regulatory functions. Adults vary widely in their levels of vitamin D. Because of that, there is no good consensus on an optimal level. No consensus on a great lower limit to use either. That is why the USPSTF recommendation for vitamin D are unchanged from their 2014 recommendation that said the same. So if vitamin D demand depends on the individual similar to sleep or food, then maybe we should learn a little bit more about low vitamin D--and who should even care.
+                                                </p>
+                                                
+                                               	</a>
+                                               	
+                                                
+
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // END BODY -->
+                                </td>
+                            </tr> 
+
+                             <tr>
+                            	<td align="center" valign="top">
+                                	<!-- BEGIN BODY // -->
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateBody" style="background-color: #F4F4F4 !important; border-top: 1px solid #FFFFFF !important;border-bottom: 1px solid #CCCCCC !important;">
+                                        <tr>
+                                            <td valign="top" class="bodyContent" mc:edit="body_content">
+                                            	<a href="https://www.healthbrew.org/articles/a-look-into-ro-the-digital-health-company-competing-with-hims" style="color: #000; text-decoration: none;" target="_blank">
+                                                <p style="font-size: 18px; color: #000; font-weight: bold;text-align: center;text-decoration: underline !important;text-decoration-color: #0000ff !important;"> 
+                                                	A Look Into Ro The Digital Health Company Competing With hims
+                                                </p>
+                                                 <img src="https://cdn.sanity.io/images/z4nmaa1v/production/75d9e28d73aaae5d8f59b3c3e682d8ff0e9611f3-2188x1456.jpg" style="" class="columnImage" mc:label="left_column_image" mc:edit="left_column_image" /> 
+                                                 <p style="font-size: 13px; color: #000;"> 
+                                                
+													
+													We recently wrote an article on the marketing strategy of hims that led to rapid growth and a public listing just three years after launching! Today we look at its biggest competitor in the direct to consumer space. In March, Ro announced it has raised a massive $500 million Series D round of funding co-led by General Catalyst, FirstMark Capital, and TQ Ventures. This is 4 years after launching in 2017.
+                                                </p>
+                                                
+                                            </a>
+                                            
+                                             
+
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // END BODY -->
+                                </td>
+                            </tr>
+
+                            <tr>
+                            	<td align="center" valign="top">
+                                	<!-- BEGIN BODY // -->
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateBody" style="background-color: #F4F4F4 !important; border-top: 1px solid #FFFFFF !important;border-bottom: 1px solid #CCCCCC !important;">
+                                        <tr>
+
+                                            <td valign="top" class="bodyContent" mc:edit="body_content" style="font-size: 13px; color: #000;">
+                                            	<center>
+
+                                              	 <a style="text-decoration: none;" href="https://twitter.com/brewhealth"target="_blank"><img style="margin-right: 4px" src="https://i.ibb.co/jyrLFDc/twitter.png">
+                                              	 </a>
+                                            	<a style="text-decoration: none;"  style="text-decoration: none;"   href="https://www.facebook.com/HelloHealthBrew/" target="_blank"><img style="margin-right: 4px;" src="https://i.ibb.co/bvQ5Lvb/facebook.png">
+                                            	</a>
+                    							<a style="text-decoration: none;"   href="https://www.instagram.com/hellohealthbrew/"target="_blank"><img style="margin-right: 4px;" src="https://i.ibb.co/sVcfGxV/instragram.png">
+                    							</a>
+                    
+                                                    <a style="text-decoration: none;"  href="https://www.linkedin.com/company/healthbrew"target="_blank"><img src="https://i.ibb.co/bsx3hFb/in.png">
+                                                    </a>
+                                                    
+                                                    <a style="text-decoration: none;"  href="https://www.pinterest.com/healthbrew/"target="_blank"><img  src="https://i.ibb.co/kQ66V35/pincert.png"></a>
+
+                                                    <p style="color: #fff;margin-bottom: 0px;">
+                                                    	<a href="mailto:hello@healthbrew.org"target="_blank">hello@healthbrew.org</a></p>
+
+                                                    <p style="color: #000;margin:0px">700 K St NW, Washington DC 20001</p>
+
+
+                                                    <p style="color: #000;margin: 0px">To unsubscribe click <a href="https://www.healthbrew.org/unsubscribe" target="_blank">Here</a></p>
+
+                                                    
+
+                                                    <p style="background-color: #EF4C61;width: 40%;margin: 0 auto;color: #fff;padding: 10px; margin-top: 10px;">
+
+                                                    	<span><a style="text-decoration: none !important; color: #fff;" href="https://www.healthbrew.org/vc"target="_blank">Venture Capital	Privacy</a></span><br>
+
+                                                    	<a style="color:#fff; font-size: 12px; text-decoration: none;margin-right: 10px;" href="https://docs.google.com/forms/d/e/1FAIpQLSfL22earLUrV9ZYPcE00pWCBkTL51Ed5h02v1UYwT5DwqruGQ/viewform"target="_blank">Sponsor</a>  <a style="color:#fff; font-size: 12px;text-decoration: none;" href="https://www.healthbrew.org/editorial"target="_blank">Submit op-ed</a><br>
+
+                                                    	<a style="color:#fff; font-size: 12px; text-decoration: none;margin-right: 10px;" href="https://www.healthbrew.org/articles"target="_blank">Articles</a>  <a style="color:#fff; font-size: 12px;text-decoration: none;" href="https://www.healthbrew.org/shop"target="_blank">Shop</a>
+
+                                                    </p>
+                                                    </center>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // END BODY -->
+                                </td>
+                            </tr>
+                        	
+                        </table>
+                        <!-- // END TEMPLATE -->
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </body>
+</html>
